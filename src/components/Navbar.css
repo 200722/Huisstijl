@@ -1,0 +1,30 @@
+.navba {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 20px;
+  gap: 30px;
+  background-color: black;
+}
+.navbar-item {
+  color: rgb(246, 243, 237);
+  text-decoration: none;
+}
+
+.navbar-item:hover > div {
+  display: flex;
+}
+
+.navbar-item > div {
+  display: none;
+  gap: 4px;
+}
+.navbar-item a {
+  color: rgb(255, 157, 0);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 3px;
+  gap: 5px;
+}
